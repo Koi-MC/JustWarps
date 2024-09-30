@@ -1,7 +1,7 @@
 # Just Warps
 
 ### What is it?
-No fuss, easy to use and configure warp teleports plugin for Bukkit/Spigot/Paper. Operators set up warps, players use the warps. That's it.
+No fuss, easy to use and configure warp teleports plugin for Bukkit/Spigot/Paper. Operators set up warps, players teleport to the warp points. That's it.
 
 ### Why?
 - Reduce large plugin bloat by keeping warps separated out to its own simple and easy to follow plugin
