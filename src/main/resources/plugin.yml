@@ -1,0 +1,40 @@
+name: JustWarps
+version: '1.0-MC1.21.1'
+main: koi.pond.justWarps.JustWarps
+api-version: '1.21.1'
+commands:
+  setwarp:
+    description: "Set a warp point"
+    usage: "/setwarp <name>"
+    permission: "JustWarps.setwarp"
+  delwarp:
+    description: "Delete a warp point"
+    usage: "/delwarp <name>"
+    permission: "JustWarps.delwarp"
+  warp:
+    description: "Teleport to a warp point"
+    usage: "/warp <name>"
+  warplist:
+    description: "List all warp points"
+    usage: "/warplist"
+  listwarp:
+    description: "List all warp points"
+    usage: "/listwarp"
+  warpconfigreload:
+    description: "Reloads the warp configuration"
+    usage: "/warpconfigreload"
+    permission: "JustWarps.reload"
+  reloadwarpconfig:
+    description: "Reloads the warp configuration"
+    usage: "/reloadwarpconfig"
+    permission: "JustWarps.reload"
+permissions:
+  JustWarps.setwarp:
+    description: "Allows setting warp points"
+    default: op
+  JustWarps.delwarp:
+    description: "Allows deleting warp points"
+    default: op
+  JustWarps.reload:
+    description: "Allows reloading the config file"
+    default: op
